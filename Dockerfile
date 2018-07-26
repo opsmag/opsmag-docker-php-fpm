@@ -32,7 +32,7 @@ RUN apk --update add \
 
 #Copy special configs
 COPY /configs/php.ini         /etc/php7/php.ini
-COPY /configs/pphp-fpm.conf    /etc/php7/php-fpm.conf
+COPY /configs/php-fpm.conf    /etc/php7/php-fpm.conf
 COPY /configs/www.conf        /etc/php7/php-fpm.d/www.conf
 
 WORKDIR /var/www/html
