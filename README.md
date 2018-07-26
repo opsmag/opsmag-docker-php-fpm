@@ -29,6 +29,7 @@ https://www.opsmag.com/docker
 
 ### Authors and contributors: 
 Boris Karaoglanov
+
 contact@opsmag.com
 
 https://www.opsmag.com/boris
