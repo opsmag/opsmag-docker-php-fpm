@@ -19,12 +19,7 @@ RUN set -x \
 
 && adduser -u 82 -D -S -G www-data www-data
 ```
-### Operations flow chart
-```mermaid
-graph LR
-A[opsmag/php-fpm:latest] --> B(App Image)
-B --> D(Nginx container)
-```
+
 ### Artifacts
 docker push opsmag/php-fpm
 https://hub.docker.com/r/opsmag/php-fpm/
