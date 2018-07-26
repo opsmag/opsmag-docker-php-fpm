@@ -22,10 +22,13 @@ RUN set -x \
 
 ### Artifacts
 docker push opsmag/php-fpm
+
 https://hub.docker.com/r/opsmag/php-fpm/
+
 https://www.opsmag.com/docker
 
 ### Authors and contributors: 
 Boris Karaoglanov
 contact@opsmag.com
+
 https://www.opsmag.com/boris
